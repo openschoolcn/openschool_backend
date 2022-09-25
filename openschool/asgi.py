@@ -1,5 +1,5 @@
 """
-ASGI config for dessert_campus project.
+ASGI config for openschool project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "dessert_campus.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "openschool.settings")
 
 application = get_asgi_application()

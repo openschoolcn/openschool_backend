@@ -1,5 +1,5 @@
 """
-WSGI config for dessert_campus project.
+WSGI config for openschool project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "dessert_campus.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "openschool.settings")
 
 application = get_wsgi_application()

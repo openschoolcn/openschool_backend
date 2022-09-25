@@ -27,7 +27,7 @@ DATABASES = {
 DATABASE_APPS_MAPPING = {
     "study": "mongo",
 }
-DATABASE_ROUTERS = ["dessert_campus.database_router.DatabaseAppsRouter"]
+DATABASE_ROUTERS = ["openschool.database_router.DatabaseAppsRouter"]
 
 # COS
 COS_URL = cfg("cos", "url")
