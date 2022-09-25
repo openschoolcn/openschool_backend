@@ -1,6 +1,6 @@
 [submodule "apis/hw_libsys_api"]
 	path = apis/hw_libsys_api
-	url = https://github.com/Dessert-Campus/hw_libsys_api.git
+	url = https://github.com/openschoolcn/hw_libsys_api.git
 [submodule "apis/zfn_api"]
 	path = apis/zfn_api
-	url = https://github.com/Dessert-Campus/zfn_api.git
+	url = https://github.com/openschoolcn/zfn_api.git
