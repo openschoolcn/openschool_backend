@@ -13,10 +13,9 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 import os
 import sys
 from datetime import timedelta
-from pathlib import Path
 
 # Path
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(BASE_DIR, "apps"))
 
 # System
@@ -87,7 +86,7 @@ STATIC_URL = "static/"
 STATIC_ROOT = (
     eval(os.getenv("STATIC_ROOT"))
     if os.getenv("STATIC_ROOT")
-    else os.path.join(BASE_DIR, "static")
+    else os.path.join(BASE_DIR, ".static")
 )
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
